@@ -3,6 +3,13 @@
         color: rgb(0, 113, 133);
         font-size: 20px;
     }
+    .first_text:hover{
+        color: rgb(255, 113, 133);;
+    }
+    .first_text:active{
+        opacity: 0.7;
+    }
+
     .second_text{
         color: black;
         font-size: 40px;
@@ -15,6 +22,39 @@
     }
     .four_text{
         font-size: 20px;
+    }
+
+    .add_to_cart_button{
+        color: black;
+        background-color: rgb(224, 217, 11);
+        height: 40px;
+        width: 105px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    .add_to_cart_button:hover{
+        opacity: 0.8;
+    }
+    .add_to_cart_button:active{
+        opacity: 0.5;
+    }
+
+    .buy_now_button{
+        color: black;
+        background-color: orange;
+        height: 40px;
+        width: 105px;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        margin-left: 8px;
+    }
+    .buy_now_button:hover{
+        opacity: 0.8;
+    }
+    .buy_now_button:active{
+        opacity: 0.5;
     }
 </style>
 
@@ -33,3 +73,11 @@
 <p class="four_text">
     Free delivery tomorrow
 </p>
+
+<button class="add_to_cart_button">
+    Add to cart
+</button>
+
+<button class="buy_now_button">
+    Buy now
+</button>
